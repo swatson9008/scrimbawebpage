@@ -3,7 +3,19 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
-function App() {
+import Main from './components/MainContent'
+import Navbar from './components/Navbar'
+
+export default function Page(){
+  return (
+    <div>
+      <Main />
+      <Navbar />
+    </div>
+  )
+}
+
+/* function App() {
   const [count, setCount] = useState(0)
 
   return (
@@ -32,4 +44,4 @@ function App() {
   )
 }
 
-export default App
+export default App*/
