@@ -1,5 +1,7 @@
+
+
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: Inter, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
@@ -25,15 +27,16 @@ a:hover {
 
 body {
   margin: 0;
-  display: flex;
+  padding: 0;
+  /*display: flex;
   place-items: center;
   min-width: 320px;
-  min-height: 100vh;
+  min-height: 100vh;*/
 }
 
 h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+  /*font-size: 3.2em;
+  line-height: 1.1;*/
 }
 
 button {
@@ -53,6 +56,35 @@ button:hover {
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
+}
+
+
+.navBar {
+  background-color: #2e3746;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.leftBar {
+  display: flex;
+  color: rgba(0, 216, 255, 1);
+  align-items: center;
+  font-size: 13px;
+  gap: 5px;
+  margin-left: 15px;
+}
+
+.leftBar img {
+  width: 50px;
+  height: 50px;
+}
+
+.rightBar {
+  color: white;
+  padding-right: 15px;
+  font-weight: bold;
 }
 
 @media (prefers-color-scheme: light) {
