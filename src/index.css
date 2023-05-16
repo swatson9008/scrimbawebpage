@@ -87,7 +87,18 @@ button:focus-visible {
 
 .mainContent {
   color: #ffffff;
-  padding: 40px;
+  padding: 30px;
+}
+
+.mainContent > h1 {
+  font-size: 40px;
+  letter-spacing: -0.05em;
+}
+
+.mainContent ul li::marker {
+  font-size: 1.4rem;
+  color: #61DAFB;
+
 }
 
 @media (prefers-color-scheme: light) {
